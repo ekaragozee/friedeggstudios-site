@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · Fried Egg Studios</title>
+<meta name="description" content="Contact Fried Egg Studios.">
+<meta property="og:title" content="Contact · Fried Egg Studios">
+<meta property="og:description" content="Contact Fried Egg Studios.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://friedeggstudios.com/contact.html">
+<meta name="theme-color" content="#122a58">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="lilita-one.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="nunito-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fredoka-700.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{if(sessionStorage.getItem('fes-splash'))document.documentElement.classList.add('seen');else document.documentElement.classList.add('splashing')}catch(e){document.documentElement.classList.add('splashing')}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash" role="status" aria-label="Loading Fried Egg Studios"><img src="logo.webp" alt="Fried Egg Studios" width="520" height="512"><div class="track"><div class="fillbar"></div></div></div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="logo.webp" alt="" width="46" height="45">Fried Egg Studios</a>
+    <button class="toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="menu" id="menu" aria-label="Main"><a href="index.html">Home</a><a href="games.html">Games</a><a href="services.html">Services</a><a href="studio.html">Studio</a><a class="cta" href="contact.html" aria-current="page">Contact</a></nav>
+  </div>
+</header>
+<main>
+<section class="sky page-hero"><div class="wrap"><div class="copy">
+  <h1>Contact</h1>
+  <p class="lead">Client projects, partnerships, press or player questions. Write to us and we will reply as soon as we can.</p>
+</div></div></section>
+
+<section class="band cream"><div class="wrap">
+  <div class="grid2">
+    <div class="panel card" style="padding:32px;gap:14px">
+      <h2 style="font-size:32px">Email</h2>
+      <p>For every enquiry:</p>
+      <a class="mail" href="mailto:info@friedeggstudios.com">info@friedeggstudios.com</a>
+      <p style="font-size:15px">Tell us a little about your project, your timeline and how to reach you.</p>
+    </div>
+    <div class="panel" style="padding:24px 28px">
+      <h2 style="font-size:32px;margin-bottom:8px">Company details</h2>
+      <table class="facts"><tbody>
+        <tr><th scope="row">Company</th><td>Fried Egg Studios Ltd</td></tr>
+        <tr><th scope="row">Company number</th><td>17596303</td></tr>
+        <tr><th scope="row">Address</th><td>Rourke House, Staines-upon-Thames, United Kingdom</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><img src="logo.webp" alt="" width="64" height="63">Fried Egg Studios</a>
+        <p style="margin-top:14px;max-width:40ch">Games, apps and software.</p>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="games.html">Games</a></li><li><a href="services.html">Services</a></li><li><a href="studio.html">Studio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Headquarters</h4><address>Rourke House<br>Staines-upon-Thames, United Kingdom<br><a href="mailto:info@friedeggstudios.com">info@friedeggstudios.com</a></address></div>
+    </div>
+    <div class="legal-line"><span>© 2026 Fried Egg Studios Ltd · Company No. 17596303 · England and Wales</span><span><a href="legal.html">Legal</a> · <a href="legal.html#privacy">Privacy</a></span></div>
+  </div>
+</footer>
+<script>
+{const sp=document.getElementById('splash'),h=document.documentElement;
+if(h.classList.contains('splashing')){setTimeout(()=>{sp.classList.add('done');h.classList.remove('splashing');try{sessionStorage.setItem('fes-splash','1')}catch(e){}},3000)}}
+{const b=document.querySelector('.toggle'),m=document.getElementById('menu');
+b.addEventListener('click',()=>{const o=m.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu')});}
+</script>
+</body>
+</html>
